@@ -1,3 +1,5 @@
+import './globals.scss';
+
 export const metadata = {
   title: 'Thread Affair',
   description: 'A high quality suit brand',

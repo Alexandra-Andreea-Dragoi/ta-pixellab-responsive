@@ -1,0 +1,11 @@
+// relative path to node_modules sass
+@import './../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss';
+@import './../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import './../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss';
+@import './../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss';
+
+// import via node-modules ~ alias
+@import './../../node_modules/bootstrap/scss/bootstrap.scss';
+// another way of importing
+@import '~bootstrap/scss/bootstrap-grid';
+@import '~bootstrap/scss/nootstrap-utilities';
