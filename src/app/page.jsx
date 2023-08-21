@@ -5,7 +5,11 @@ export default function Home() {
         <i className="fa-solid fa-arrow-right"></i>
       </header>
 
-      <main className="content">Body</main>
+      <main className="content">
+        <picture>
+          <img src="/images/logo.jpg" alt="logo" />
+        </picture>
+      </main>
 
       <footer className="footer">Footer</footer>
     </>
