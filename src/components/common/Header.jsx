@@ -18,7 +18,7 @@ export default function Header() {
           </ul>
         </div>
 
-        <div className="header-search">
+        <div className="header-search d-block d-lg-none">
           <ul>
             <li>
               <button type="button" title="Menue">
@@ -35,7 +35,7 @@ export default function Header() {
         </div>
 
         <div className="header-controls">
-          <ul>
+          <ul className="d-felx gap-4 flex-lg-row-reverse">
             <li>
               <button type="button" title="Cart">
                 <i className="fa-solid fa-cart-shopping"></i>
@@ -57,7 +57,7 @@ export default function Header() {
         </a>
       </section>
 
-      <section className="header-primary">
+      <section className="header-primary d-none d-lg-block">
         <nav className="nav-primary">
           <ul>
             <li>
