@@ -6,7 +6,8 @@ export default function Header() {
           <ul>
             <li>
               <a href="tel:+1-877-666-1840" title="Call us">
-                <i className="fa-solid fa-phone">Toll Free 1-877-666-1840</i>
+                <i className="fa-solid fa-phone"></i>
+                Toll Free 1-877-666-1840
               </a>
             </li>
 
@@ -39,6 +40,8 @@ export default function Header() {
             <li>
               <button type="button" title="Cart">
                 <i className="fa-solid fa-cart-shopping"></i>
+
+                <span class="cart-qty">3</span>
               </button>
             </li>
 

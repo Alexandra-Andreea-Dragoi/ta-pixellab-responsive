@@ -155,32 +155,55 @@ export default function Footer() {
             <h1>
               <span>Thread Affair</span> Milano
             </h1>
-            <p>
-              Largo Augusto 3, Milano, 20122, Milano, IT Tel: 0039 02 760 003 66
-              office@thread-affair.com
-            </p>
+            <p>Largo Augusto 3, Milano, 20122, Milano, IT</p>
+
+            <ul>
+              <li>
+                <a href="tel:+39027600366" type="tel">
+                  Tel: 0039 02 760 003 66
+                </a>
+              </li>
+
+              <li>
+                <a href="mailto:office@thread-affair.com" type="mail">
+                  office@thread-affair.com
+                </a>
+              </li>
+            </ul>
           </section>
 
           <section className="footer-connect">
-            <ul>
+            <ul className="d-flex flex-row">
               <li>
-                <a href="" title="">
-                  <i className="fa-solid"></i>
-                  support
+                <a
+                  href="/"
+                  title="support"
+                  className="d-flex flex-column align-content-center justify-content-center g-2"
+                >
+                  <i className="fa-solid fa-phone"></i>
+                  <span className="mt-2">support</span>
                 </a>
               </li>
 
               <li>
-                <a href="" title="">
-                  <i className="fa-solid"></i>
-                  chat
+                <a
+                  href="/"
+                  title="chat"
+                  className="d-flex flex-column align-content-center justify-content-cente g-2r"
+                >
+                  <i className="fa-solid fa-comments"></i>
+                  <span className="mt-2">chat</span>
                 </a>
               </li>
 
               <li>
-                <a href="" title="">
-                  <i className="fa-solid"></i>
-                  email
+                <a
+                  href="/"
+                  title="email"
+                  className="d-flex flex-column align-content-center justify-content-cente g-2r"
+                >
+                  <i className="fa-solid fa-envelope"></i>
+                  <span className="mt-2">email</span>
                 </a>
               </li>
             </ul>
